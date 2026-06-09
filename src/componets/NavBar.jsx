@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
    <>
    
-    <div className="max-w-5xl mx-auto py-4 flex items-center justify-between border-b border-zinc-700">
+    <div className="max-w-5xl mx-auto py-6 flex items-center justify-between border-b border-zinc-700">
    <div className="nleft flex  items-center">
      <img className="w-22 h-10 rounded-full" src="https://assets-global.website-files.com/6024cb0edb66de5e830d3665/60343177940d0b566d3991b7_og.png" alt=""  />
     <div className="links flex gap-15 ml-20">

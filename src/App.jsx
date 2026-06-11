@@ -1,13 +1,20 @@
 import React from "react";
 import NavBar from "./componets/NavBar";
 import Work from "./componets/Work";
-
+import Stripes from "./componets/Stripes";
+import Products from "./componets/Products";
+import Marquees from "./componets/Marquees";
+import Cards from "./componets/Cards";
 const App = () => {
   return (
     <>
-    <div className="w-screen h-screen bg-zinc-900 text-white">
+    <div className="w-auto h-auto bg-zinc-900 text-white">
    <NavBar />
    <Work />
+   <Stripes/>
+   <Products/>
+   <Marquees/>
+    <Cards/>
     </div>
     </>
   )

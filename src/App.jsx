@@ -5,6 +5,7 @@ import Stripes from "./componets/Stripes";
 import Products from "./componets/Products";
 import Marquees from "./componets/Marquees";
 import Cards from "./componets/Cards";
+import Footer from "./componets/Footer";
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
    <Products/>
    <Marquees/>
     <Cards/>
+    <Footer />
     </div>
     </>
   )

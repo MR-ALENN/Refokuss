@@ -9,7 +9,7 @@ const Marquees = () => {
 
   return (
     <div className='w-full mt-10'>
-        {MarqData.map(val=><Marquee imagesUrls ={val}/>)}
+        {MarqData.map((val,index)=><Marquee key={index}  imagesUrls ={val}/>)}
     </div>
   )
 }

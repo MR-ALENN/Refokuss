@@ -10,8 +10,8 @@ const NavBar = () => {
      <img className="w-22 h-10 rounded-full" src="https://assets-global.website-files.com/6024cb0edb66de5e830d3665/60343177940d0b566d3991b7_og.png" alt=""  />
     <div className="links flex gap-15 ml-20">
       {["Home","Work","Culture","","News"].map((elem,index) => (
-      elem.length === 0 ?( <span className='w-0.5 h-7 bg-zinc-500'></span>) : (  <a className="text-sm flex items-center gap-1" href='#'>
-          {index === 1 && (<span className='inline-block w-1 h-1 rounded-full bg-green-400 '></span>) }  
+      elem.length === 0 ?( <span key={index} className='w-0.5 h-7 bg-zinc-500'></span>) : (  <a key={index}  className="text-sm flex items-center gap-1" href='#'>
+          {index === 1 && (<span key={index}  className='inline-block w-1 h-1 rounded-full bg-green-400 '></span>) }  
           {elem}</a>)
       ))}
     </div>

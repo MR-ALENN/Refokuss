@@ -13,18 +13,18 @@ const Footer = () => {
     <div className='w-1/2 flex mt-20 ml-25 '>
         <div className='w-1/3 flex flex-col  text-[13px] text-zinc-500 gap-1'>
             <h1 className='mb-7'>Socials</h1>
-            {["Instagram","Twitter (X?)","LinkedIn"].map(elem=><a>{elem}</a>)}
+            {["Instagram","Twitter (X?)","LinkedIn"].map((elem,index)=><a key={index} >{elem}</a>)}
         </div>
         <div className='w-1/3 flex flex-col  text-[13px] gap-1 '>
             <h1 className='mb-7'>Sitemap</h1>
-            {["Home","Work","Careers","Contact"].map(elem=><a>{elem}</a>)}
+            {["Home","Work","Careers","Contact"].map((elem,index)=><a key={index} >{elem}</a>)}
         </div>
         <div className='w-1/3 flex flex-col  text-[13px] text-right gap-10'>
            <h1>Refokus is a pioneering digital <br /> agency driven by design and <br />empowered by technology.</h1>
            <img src="https://cdn.prod.website-files.com/664dc8b6bc52b504509197e4/66bd4a1138d6a32addf4b6b2_premium_partner_badge_enterprise_blue.webp" alt="" />
         </div>
     </div>
-</div>
+</div>  
     </div>
   )
 }

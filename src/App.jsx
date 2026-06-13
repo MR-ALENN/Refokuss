@@ -6,7 +6,9 @@ import Products from "./componets/Products";
 import Marquees from "./componets/Marquees";
 import Cards from "./componets/Cards";
 import Footer from "./componets/Footer";
+import LocomotiveScroll from 'locomotive-scroll';
 const App = () => {
+  const scroll = new LocomotiveScroll();
   return (
     <>
     <div className="w-auto h-auto bg-zinc-900 text-white">
@@ -15,7 +17,7 @@ const App = () => {
    <Stripes/>
    <Products/>
    <Marquees/>
-    <Cards/>
+    <Cards/>  
     <Footer />
     </div>
     </>

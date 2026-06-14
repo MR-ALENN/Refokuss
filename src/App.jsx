@@ -11,7 +11,7 @@ const App = () => {
   const scroll = new LocomotiveScroll();
   return (
     <>
-    <div className="w-auto h-auto bg-zinc-900 text-white">
+    <div className="w-full h-full bg-zinc-900 text-white">
    <NavBar />
    <Work />
    <Stripes/>
